@@ -8,8 +8,38 @@
   src: local("Roboto"), url(../fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
 
+@font-face {
+  font-family: FjallaOne;
+  src: local("FjallaOne"), url(../fonts/FjallaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Anton;
+  src: local("Anton"), url(../fonts/Anton-Regular.ttf);
+}
+
 :root {
-  --primary: blue;
+  --primary: #23374f;
+  --primary-light: #8392a3;
+  --secondary: #a33d34;
+}
+
+#intro {
+  h2 {
+    color: hsl(from var(--secondary) h 80% l);
+  }
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.primary-light {
+  color: var(--primary-light);
+}
+
+.secondary {
+  color: var(--secondary);
 }
 
 h1,
@@ -18,20 +48,25 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
   line-height: 1.2;
 }
 
 h1 {
-  font-size: 36pt;
-  font-weight: 800;
+  font-size: 5em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3.5rem;
 }
 
 p {
   font-family: Nunito, sans-serif;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 2;
   em {
     font-weight: 300;
   }
@@ -39,6 +74,9 @@ p {
 
 a {
   text-decoration: none;
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
   &[target="_blank"]::after {
     content: " ↗";
   }
@@ -47,12 +85,17 @@ a {
   }
 }
 
-main section {
-  padding: 15px 15vw;
+main {
+  width: 100vw;
+  section {
+    padding: 40px 15vw;
+    /* margin: 80px auto;
+    width: 66vw; */
+  }
 }
 
 .hero {
-  height: clamp(700px, 70vh, 70vh);
+  height: 100vh;
   background-image: url(../img/15275816_1920_1080_30fps.gif);
   background-position: center;
   position: relative;
@@ -62,20 +105,21 @@ main section {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    padding: 15px 15vw;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.349);
-    p {
-      font-size: 16pt;
-      font-weight: 500;
+    h1 {
+      margin: 80px auto;
+      width: 66vw;
     }
   }
 }
 
 .mainnav {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 99;
-  background-color: rgba(0, 0, 0, 0.858);
+  width: 100vw;
+  background-color: hsl(from var(--primary) h s l / 90%);
   & ul {
     list-style: none;
     padding: 0;
@@ -92,6 +136,12 @@ main section {
     font-size: large;
     color: whitesmoke;
   }
+}
+
+.two-col-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
 }
 
 .timeline {
