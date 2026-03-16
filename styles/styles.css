@@ -148,6 +148,17 @@ main {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #000000;
+  & .tl-multi details {
+    padding-top: 14px;
+  }
+  & .tl-pretext h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 16.8px;
+    font-weight: 700;
+  }
+  & .tl-pretext *:not(details, details *) {
+    padding-left: 2rem;
+  }
   & ul {
     margin: 0;
     margin-top: 100px;
