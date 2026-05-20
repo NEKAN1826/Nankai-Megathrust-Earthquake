@@ -74,3 +74,16 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* 
+11. Personal adjustments
+*/
+body {
+  min-block-size: 100svh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+html {
+  scrollbar-gutter: stable;
+}

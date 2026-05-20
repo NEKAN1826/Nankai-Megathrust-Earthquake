@@ -32,25 +32,28 @@
         </ul>
       </nav>
     </header>
-    <div class="hero">
-      <div class="headline">
-        <h1>Japans nächstes Megabeben</h1>
-        <!-- <p>
-          Forscher erwarten 2030 das verherenste Erdbeben seit dem Fukushima
-          Desaster. Im schlimmstfall könnte das sogenannte Nankai Megathrust
-          Erdbeben 230 Tausend Menschen das Leben kosten und Schäden in höhe von
-          213 Billionen Yen verursachen.
-        </p>
-        <p>
-          Diese Seite will darüber Informieren, was dieses Beben ist. Welche
-          Gefahren davon ausgehen und welche Sicherheitsmaßnahmen getroffen
-          werden können.
-        </p> -->
-      </div>
-    </div>
     <main>
+      <div class="hero">
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          aria-hidden="true"
+          tabindex="-1"
+          id="heroVid"
+        >
+          <source src="./video/coast_of_jpn_1080_30fps.mp4" type="video/mp4" />
+        </video>
+        <div class="headline">
+          <h1>Japans nächstes Megabeben</h1>
+        </div>
+      </div>
       <section id="intro">
-        <h2>Die erste Warnung</h2>
+        <h2>
+          <strong>Einleitung</strong>
+          Die erste Warnung
+        </h2>
         <div class="two-col-grid">
           <div>
             <p>
@@ -71,6 +74,16 @@
               Gefahr bleibt bestehen, denn der Spannungsaufbau entlang des
               Nankai-Trogs schreitet weiter voran.
             </p>
+          </div>
+          <figure>
+            <img
+              src="./img/1946_Nankai_Earthquake_(12).jpg"
+              alt="Zerstörung nach dem Nankaierdbeben 1946"
+            />
+            <figcaption>Zerstörung nach dem Nankaierdbeben 1946</figcaption>
+            <p class="attribution">徳島地方気象台</p>
+          </figure>
+          <div>
             <p>
               Seismologen gehen davon aus, dass in den kommenden Jahrzehnten ein
               Beben der Magnitude 8 bis 9 möglich ist. Die Wahrscheinlichkeit
@@ -85,11 +98,19 @@
           </div>
           <figure>
             <img
-              src="./img/1946_Nankai_Earthquake_(12).jpg"
-              alt="Zerstörung nach dem Nankaierdbeben 1946"
+              src="./img/2024年日向灘地震による被害(1).jpg"
+              alt="Beschädigtes gebäude nach dem "
             />
-            <figcaption>Zerstörung nach dem Nankaierdbeben 1946</figcaption>
-            <p class="attribution">徳島地方気象台</p>
+            <figcaption>
+              Zerstörung nach dem Erdbeben bei Miyazaki 2024
+            </figcaption>
+            <p class="attribution">
+              <a
+                href="https://www.data.jma.go.jp/miyazaki/shosai/pdf/r6/20240809_jma-mot2.pdf"
+                target="_blank"
+                >気象庁
+              </a>
+            </p>
           </figure>
         </div>
       </section>
@@ -691,7 +712,7 @@
         </p>
       </section>
       <section id="danger">
-        <h2>Was groß ist die Gefahr?</h2>
+        <h2>Was ist die Gefahr?</h2>
         <p>
           Staatliche Modelle gehen davon aus, dass ein Magnitude 9,0 Erdbeben
           entlang des Nankai-Grabens verehrende folgen für das Land haben
@@ -878,6 +899,9 @@
         </p>
       </section>
     </main>
+    <footer>
+      <p>Some footer content</p>
+    </footer>
   </body>
   <script src="./js/index.js"></script>
 </html>

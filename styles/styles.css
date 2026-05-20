@@ -48,14 +48,26 @@ h3,
 h4,
 h5,
 h6 {
+  color: var(--header-color, black);
   font-family: "Anton", sans-serif;
   font-weight: 500;
   line-height: 1.2;
+
+  strong {
+    /* to do */
+    color: contrast-color(--section-bg-color);
+    display: block;
+    font-size: 75%;
+    opacity: 0.75;
+  }
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 7rem;
   font-weight: 600;
+  @media (width < 700px) {
+    font-size: clamp(22px, 7rem, 13vw);
+  }
 }
 
 h2 {
@@ -66,7 +78,7 @@ p {
   font-family: Nunito, sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.5;
   em {
     font-weight: 300;
   }
@@ -86,19 +98,30 @@ a {
 }
 
 main {
-  width: 100vw;
-  section {
-    padding: 40px 15vw;
-    /* margin: 80px auto;
-    width: 66vw; */
+  & section {
+    padding: 30px 15px;
+  }
+  & section:first-of-type {
+    padding-top: 60px;
+  }
+  @media (width > 600px) {
+    & section {
+      padding: 30px 10%;
+    }
   }
 }
 
 .hero {
-  height: 100vh;
-  background-image: url(../img/15275816_1920_1080_30fps.gif);
-  background-position: center;
+  height: 100svh;
   position: relative;
+  #heroVid {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
   .headline {
     position: absolute;
     display: flex;
@@ -106,11 +129,25 @@ main {
     justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.349);
+    background-color: rgba(0, 0, 0, 0.5);
     h1 {
+      color: white;
+      text-transform: uppercase;
       margin: 80px auto;
-      width: 66vw;
+      width: 66%;
     }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero {
+    background-image: url(../video/coast_of_jpn_fallback.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #heroVid {
+    display: none;
   }
 }
 
@@ -118,7 +155,7 @@ main {
   position: fixed;
   top: 0;
   z-index: 99;
-  width: 100vw;
+  width: 100%;
   background-color: hsl(from var(--primary) h s l / 90%);
   & ul {
     list-style: none;
@@ -138,10 +175,26 @@ main {
   }
 }
 
+footer {
+  color: whitesmoke;
+  background-color: black;
+  padding: 40px 15vw;
+}
+
 .two-col-grid {
   display: grid;
-  grid-template-columns: auto auto;
-  gap: 100px;
+  gap: 2rem;
+  @media (width > 800px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.col-span-two {
+  grid-column: span 2;
+}
+
+.row-span-two {
+  grid-row: span 2;
 }
 
 .timeline {
