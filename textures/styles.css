@@ -34,7 +34,7 @@
 
 #cause {
   --section-bg-color: var(--primary-saturated);
-  background-image: url(../textures/black-orchid.png);
+  background-image: url(../img/black-orchid.png);
   --header-color: var(--off-white);
   color: var(--off-white);
   font-weight: 500;
