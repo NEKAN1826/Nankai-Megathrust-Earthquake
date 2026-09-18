@@ -40,6 +40,42 @@
   font-weight: 500;
 }
 
+#history {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+}
+
+#timeline {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.trans-img {
+  width: 66vw;
+  align-self: center;
+  margin-top: -20vh;
+  margin-bottom: 30px;
+  &img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+  }
+  @media (width < 1200px) {
+    & figure:last-of-type {
+      display: none;
+    }
+  }
+}
+
+.trans-img-space {
+  padding-bottom: calc(30px + 20vh);
+}
+
+div.trans-img.two-thirds-grid {
+  gap: 0;
+}
+
 .primary {
   color: var(--primary);
 }
@@ -110,6 +146,7 @@ main {
   & section {
     --section-bg-color: white;
     background-color: var(--section-bg-color);
+    background-image: url(../textures/cream-paper.png);
     padding: 30px 15px;
   }
   & section:first-of-type {
@@ -145,7 +182,7 @@ main {
       color: white;
       text-transform: uppercase;
       margin: 80px auto;
-      width: 66%;
+      width: 80%;
     }
   }
 }
@@ -210,10 +247,16 @@ footer {
 
 .two-thirds-grid {
   display: grid;
-  gap: 2rem;
-  @media (width > 800px) {
+  gap: 30px;
+  @media (width > 1200px) {
     grid-template-columns: 2fr 1fr;
   }
+}
+
+.img-row-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  justify-content: center;
 }
 
 .timeline {
@@ -233,11 +276,14 @@ footer {
   }
   & ul {
     margin: 0;
-    margin-top: 100px;
+    padding: 0 10%;
+    padding-top: 60px;
     list-style: none;
     position: relative;
-    padding: 1px 100px;
     font-size: 14px;
+    @media (width > 600px) {
+      padding-left: 50px;
+    }
   }
   & li {
     position: relative;

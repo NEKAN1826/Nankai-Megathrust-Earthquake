@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./leaflet/leaflet.css" />
+    <script src="./leaflet/leaflet.js"></script>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Japans nächstes Megabeben</title>
@@ -11,12 +13,33 @@
     <header class="mainnav">
       <nav>
         <ul>
-          <li><a href="">Einleitung</a></li>
-          <li><a href="">Ursache</a></li>
-          <li><a href="">Vergangenheit</a></li>
-          <li><a href="">Gefahr</a></li>
-          <li><a href="">Sicherheitsmaßnahmen</a></li>
-          <li><a href="">Quellen</a></li>
+          <li>
+            <a href="" onclick="scrollToAnchor('intro', event)">Einleitung</a>
+          </li>
+          <li>
+            <a href="" onclick="scrollToAnchor('cause', event)">Ursache</a>
+          </li>
+          <li>
+            <a href="" onclick="scrollToAnchor('history', event)">Geschichte</a>
+          </li>
+          <li>
+            <a href="" onclick="scrollToAnchor('next', event)"
+              >Akutelle Gefahr</a
+            >
+          </li>
+          <li>
+            <a href="" onclick="scrollToAnchor('safety', event)"
+              >Staatliche Bemühungen</a
+            >
+          </li>
+          <li>
+            <a href="" onclick="scrollToAnchor('advice', event)"
+              >Sicherheitsmaßnahmen</a
+            >
+          </li>
+          <li>
+            <a href="./literatur.html">Quellen</a>
+          </li>
           <li>
             <a href="https://uni-tuebingen.de/impressum/" target="_blank"
               >Impressum</a
@@ -46,7 +69,10 @@
           <source src="./video/coast_of_jpn_1080_30fps.mp4" type="video/mp4" />
         </video>
         <div class="headline">
-          <h1>Japans nächstes Megabeben</h1>
+          <h1>
+            Japans nächstes <br />
+            Megabeben
+          </h1>
         </div>
       </div>
       <section id="intro">
@@ -96,58 +122,81 @@
           </figure>
         </div>
       </section>
-      <section id="cause">
-        <h2>Das Nankai Megathrust Erdbeben</h2>
-        <p>
-          Megathrust-Erdbeben entstehen an Subduktionszonen. Dort wo sich eine
-          Erdplatte unter eine andere schiebt. Vor der Südwestküste Japans
-          verläuft eine dieser Zonen: der Nankai-Trog.
-        </p>
-        <p>
-          Hier taucht die Philippinische Platte unter die Amur-Platte, einen
-          Teil der Eurasischen Platte. Doch die Platten gleiten nicht
-          gleichmäßig aneinander vorbei. Sie verhaken sich. Während die
-          Philippinische Platte sich weiter nach Norden bewegt, wird der Rand
-          der darüberliegenden Platte mitgezogen. Über Jahrzehnte und
-          Jahrhunderte baut sich so enorme Spannung auf.
-        </p>
-        <p>
-          Irgendwann überschreitet diese Spannung die Belastungsgrenze des
-          Gesteins. Dabei kommt es zum Riss, bei dem die verhakten Bereiche der
-          Platte ruckartig zurückspringen. Innerhalb weniger Sekunden wird die
-          gespeicherte Energie freigesetzt. Hierbei entstehen Erdbeben der
-          Magnitude 7, 8 und höher. Wird dabei der Meeresboden angehoben oder
-          abgesenkt, entsteht zusätzlich ein Tsunami.
-        </p>
-        <p>
-          Der Nankai-Trog ist in fünf Segmente unterteilt, bezeichnet mit A bis
-          E. Diese lassen sich grob drei Zonen zuordnen: Tokai, Tonankai und
-          Nankai. Die Segmente können einzeln oder kaskadenartig kurz
-          hintereinander reißen. So folgt häufig auf ein Beben innerhalb von
-          Stunden bis Jahren ein weiteres in einem benachbarten Abschnitt. In
-          seltenen Fällen brechen mehrere Segmente gleichzeitig.
-        </p>
-        <p>
-          Als 1707 beim Hōei-Erdbeben nahezu alle Abschnitte gleichzeitig
-          versagten, erschütterte eines der stärksten bekannten Beben Japans das
-          Land. Wenige Wochen später kam es zur Eruption des Fuji. Es besteht
-          die Möglichkeit, dass das Beben diesen Ausbruch auslöste, doch
-          wissenschaftlich ist das noch nicht abschließend geklärt.
-        </p>
-        <p>
-          Solche Großbeben wiederholen sich in Abständen von etwa 90 bis 200
-          Jahren. Ein besonders hohes Risiko geht derzeit vom Segment E aus, wo
-          es seit 1854 kein großes Beben mehr gab.
-        </p>
-        <p>
-          Die besondere Gefahr liegt in der Lage des Trogs. Dieser verläuft
-          quasi parallel zu Japans dicht besiedelter Ostküste. Millionenstädte
-          wie Tokio, Yokohama und Osaka könnten von Erdbeben und Tsunami
-          betroffen sein.
-        </p>
+      <section id="cause" class="trans-img-space">
+        <div class="text">
+          <h2>
+            <strong>Ursache</strong>
+            Das Nankai Megathrust Erdbeben
+          </h2>
+          <p>
+            Megathrust-Erdbeben entstehen an Subduktionszonen. Dort wo sich eine
+            Erdplatte unter eine andere schiebt. Vor der Südwestküste Japans
+            verläuft eine dieser Zonen: der Nankai-Trog.
+          </p>
+          <p>
+            Hier taucht die Philippinische Platte unter die Amur-Platte, einen
+            Teil der Eurasischen Platte. Doch die Platten gleiten nicht
+            gleichmäßig aneinander vorbei. Sie verhaken sich. Während die
+            Philippinische Platte sich weiter nach Norden bewegt, wird der Rand
+            der darüberliegenden Platte mitgezogen. Über Jahrzehnte und
+            Jahrhunderte baut sich so enorme Spannung auf.
+          </p>
+          <p>
+            Irgendwann überschreitet diese Spannung die Belastungsgrenze des
+            Gesteins. Dabei kommt es zum Riss, bei dem die verhakten Bereiche
+            der Platte ruckartig zurückspringen. Innerhalb weniger Sekunden wird
+            die gespeicherte Energie freigesetzt. Hierbei entstehen Erdbeben der
+            Magnitude 7, 8 und höher. Wird dabei der Meeresboden angehoben oder
+            abgesenkt, entsteht zusätzlich ein Tsunami.
+          </p>
+          <p>
+            Der Nankai-Trog ist in fünf Segmente unterteilt, bezeichnet mit A
+            bis E. Diese lassen sich grob drei Zonen zuordnen: Tokai, Tonankai
+            und Nankai. Die Segmente können einzeln oder kaskadenartig kurz
+            hintereinander reißen. So folgt häufig auf ein Beben innerhalb von
+            Stunden bis Jahren ein weiteres in einem benachbarten Abschnitt. In
+            seltenen Fällen brechen mehrere Segmente gleichzeitig.
+          </p>
+          <p>
+            Als 1707 beim Hōei-Erdbeben nahezu alle Abschnitte gleichzeitig
+            versagten, erschütterte eines der stärksten bekannten Beben Japans
+            das Land. Wenige Wochen später kam es zur Eruption des Fuji. Es
+            besteht die Möglichkeit, dass das Beben diesen Ausbruch auslöste,
+            doch wissenschaftlich ist das noch nicht abschließend geklärt.
+          </p>
+          <p>
+            Solche Großbeben wiederholen sich in Abständen von etwa 90 bis 200
+            Jahren. Ein besonders hohes Risiko geht derzeit vom Segment E aus,
+            wo es seit 1854 kein großes Beben mehr gab.
+          </p>
+          <p>
+            Die besondere Gefahr liegt in der Lage des Trogs. Dieser verläuft
+            quasi parallel zu Japans dicht besiedelter Ostküste. Millionenstädte
+            wie Tokio, Yokohama und Osaka könnten von Erdbeben und Tsunami
+            betroffen sein.
+          </p>
+        </div>
+        <div id="nankaiMap"></div>
       </section>
       <section id="history">
-        <h2>Historische Vorfälle</h2>
+        <div class="trans-img two-thirds-grid">
+          <figure>
+            <img
+              src="./img/Kawaraban-of-1855-Ansei-Edo-earthquake - cropped.png"
+              alt="Bild einer Zeitung uas dem Jahr 1855, welches kollabierte Häusern in Flammen darstellt in Edo (dem heutigen Tokio)"
+            />
+          </figure>
+          <figure>
+            <img
+              src="./img/内閣府 防災担当 - 宝永大噴火を描いた絵図「夜ルの景気」(静岡県沼津市土屋博氏所蔵).jpg"
+              alt="Zeichnung welche die Hōei Eruption, die letzte Eruption des Vulkans Fuji, im Jahre 1708 darstellt."
+            />
+          </figure>
+        </div>
+        <h2>
+          <strong>Geschichte</strong>
+          Historische Nankai-Erdbeben
+        </h2>
         <p>
           Seit Beginn der japanischen Geschichtsschreibung werden die Erdbeben
           am Nankai-Trog dokumentiert. Die Aufzeichnungen reichen bis ins siebte
@@ -186,6 +235,8 @@
           diese historischen Ereignisse, denn sie geben Hinweise darauf, was
           sich wiederholen könnte.
         </p>
+      </section>
+      <section id="timeline">
         <div class="timeline">
           <ul>
             <li>
@@ -662,7 +713,10 @@
         </div>
       </section>
       <section id="next">
-        <h2>Das nächste große Nankai Erdbeben</h2>
+        <h2>
+          <strong>Akutelle Gefahr</strong>
+          Das nächste große Nankai Erdbeben
+        </h2>
         <p>
           Nach dem Tōhoku-Erdbeben von 2011, das die Nuklearkatastrophe von
           Fukushima auslöste, hat die Regierung Japans ihre Schätzungen für das
@@ -691,9 +745,9 @@
           8 oder größer entlang des Nankai-Grabens in den kommenden 30 Jahren
           auf rund 80 Prozent.
         </p>
-      </section>
+        <!--       </section>
       <section id="danger">
-        <h2>Was ist die Gefahr?</h2>
+        <h2>Was ist die Gefahr?</h2> -->
         <p>
           Staatliche Modelle gehen davon aus, dass ein Magnitude 9,0 Erdbeben
           entlang des Nankai-Grabens verehrende folgen für das Land haben
@@ -731,7 +785,10 @@
         </p>
       </section>
       <section id="safety">
-        <h2>Wie das Land sich auf das Erdbeben vorbereitet</h2>
+        <h2>
+          <strong>Staatliche Bemühungen</strong>
+          Wie das Land sich auf das Erdbeben vorbereitet
+        </h2>
         <p>
           Das potenzielle Ausmaß des kommenden Nankai-Erdbebens war zuvor schon
           lange bekannt. Bereits im März 2014 setzte sich die Regierung das Ziel
@@ -798,7 +855,10 @@
         </p>
       </section>
       <section id="advice">
-        <h2>Wie man sich auf das Erdbeben vorbereiten kann</h2>
+        <h2>
+          <strong>Sicherheitsmaßnahmen</strong>
+          Wie man sich auf das Erdbeben vorbereiten kann
+        </h2>
         <p>
           Neben den staatlichen Präventionsmaßnahmen ist es auch für Menschen,
           die in Japan leben oder das Land besuchen, entscheidend, sich
@@ -835,6 +895,26 @@
           Fluchtwege sichern, welche andernfalls durch verzogene Rahmen
           eingeklemmt werden könnten.
         </p>
+        <div class="img-row-4">
+          <figure>
+            <img src="./img/Safety_evacuation_area.svg.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./img/Safety_evacuation_shelter.svg.png" alt="" />
+          </figure>
+          <figure>
+            <img
+              src="./img/Japan_Public_Information_Symbol_-_Tsunami_Evacuation_Area.svg.png"
+              alt=""
+            />
+          </figure>
+          <figure>
+            <img
+              src="./img/Japan_Public_Information_Symbol_-_Tsunami_Evacuation_Building.svg.png"
+              alt=""
+            />
+          </figure>
+        </div>
         <p>
           Ist das eigene Zuhause nach einem Erdbeben nicht mehr sicher, sollte
           man eine Notunterkunft aufsuchen. Informationen über Standorte solcher

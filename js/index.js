@@ -83,3 +83,15 @@ class Accordion {
 document.querySelectorAll("details").forEach((el) => {
   new Accordion(el);
 });
+
+function scrollToAnchor(id, event) {
+  let anchor = document.getElementById(id);
+  if (!anchor) return;
+  if (event) event.preventDefault();
+  anchor.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+    inline: "nearest",
+  });
+  return;
+}
