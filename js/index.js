@@ -95,3 +95,57 @@ function scrollToAnchor(id, event) {
   });
   return;
 }
+
+var southWest = L.latLng(26, 145),
+  northEast = L.latLng(50, 124),
+  bounds = L.latLngBounds(southWest, northEast);
+
+var map = L.map("nankaiMap", {
+  maxBounds: bounds,
+});
+
+map.setView([34.42, 135, 30], 5.4);
+
+var OpenStreetMap_DE = L.tileLayer(
+  "https://tile.openstreetmap.de/{z}/{x}/{y}.png",
+  {
+    maxZoom: 18,
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  },
+);
+
+OpenStreetMap_DE.addTo(map);
+
+fetch("data/PB2002_boundaries.json")
+  .then((response) => response.json())
+  .then((geojsonData) => {
+    console.log(geojsonData);
+    L.geoJSON(geojsonData, {
+      style: {
+        color: "#ff1100",
+        weight: 2,
+        opacity: 0.7,
+      },
+    }).addTo(map);
+  });
+
+fetch("data/PB2002_plates.json")
+  .then((response) => response.json())
+  .then((geojsonData) => {
+    console.log(geojsonData);
+    L.geoJSON(geojsonData, {
+      style: {
+        color: "#ff1100",
+        weight: 3,
+        opacity: 0.7,
+      },
+      onEachFeature: addPopups,
+    }).addTo(map);
+  });
+
+function addPopups(feature, layer) {
+  if (feature.properties && feature.properties.PlateName) {
+    layer.bindPopup(feature.properties.PlateName);
+  }
+}
