@@ -40,6 +40,10 @@
   font-weight: 500;
 }
 
+#nankaiMap {
+  height: 100%;
+}
+
 #history {
   display: flex;
   flex-direction: column;
@@ -49,6 +53,66 @@
 #timeline {
   margin-top: 0;
   padding-top: 0;
+}
+
+#next-hero {
+  height: clamp(30vh, 750px, 100vh);
+  padding: 0;
+  .bg {
+    background-image: url(../img/US_Navy_110322-N-SB672-673_An_aerial_view_of_Baba_Utatsu_Minamisanriku\,_Motoyoshi\,_Japan\,_11_days_after_a_9.0_magnitude_earthquake_and_subsequent_tsunami.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    @supports (animation-timeline: view()) {
+      @media (prefers-reduced-motion: no-preference) {
+        animation: bg-zoom-out both 20s;
+        animation-play-state: paused;
+        @container style(--in-view: true) {
+          animation-play-state: running;
+        }
+      }
+    }
+    .bg-overlay {
+      height: 100%;
+      padding: 30px 15px;
+      background-color: rgba(0, 0, 0, 0.4);
+      @media (width > 600px) {
+        padding: 30px 10%;
+      }
+    }
+    .text {
+      --header-color: var(--off-white);
+      color: var(--off-white);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      max-width: 700px;
+      & p {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@keyframes bg-zoom-out {
+  from {
+    background-size: auto 130%;
+  }
+  to {
+    background-size: auto 100%;
+  }
+}
+
+@media (min-width: 900px) {
+  @keyframes bg-zoom-out {
+    from {
+      background-size: 130%;
+    }
+    to {
+      background-size: 100%;
+    }
+  }
 }
 
 .trans-img {
@@ -145,6 +209,10 @@ a {
 main {
   & section {
     --section-bg-color: white;
+    --in-view: false;
+    animation: section-in-view both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 70%;
     background-color: var(--section-bg-color);
     background-image: url(../textures/cream-paper.png);
     padding: 30px 15px;
@@ -156,6 +224,57 @@ main {
     & section {
       padding: 30px 10%;
     }
+  }
+  & h2 {
+    @supports (animation-timeline: view()) {
+      @media (prefers-reduced-motion: no-preference) {
+        animation: blend-in-right both 1.5s;
+        animation-play-state: paused;
+        @container style(--in-view: true) {
+          animation-play-state: running;
+        }
+      }
+    }
+  }
+  & p {
+    @supports (animation-timeline: view()) {
+      @media (prefers-reduced-motion: no-preference) {
+        animation: blend-in both 1.2s;
+        animation-play-state: paused;
+        @container style(--in-view: true) {
+          animation-play-state: running;
+        }
+      }
+    }
+  }
+}
+
+@keyframes section-in-view {
+  from {
+    --in-view: false;
+  }
+  to {
+    --in-view: true;
+  }
+}
+
+@keyframes blend-in-right {
+  0% {
+    opacity: 0;
+    translate: 30px 0;
+  }
+  100% {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes blend-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -202,7 +321,7 @@ main {
 .mainnav {
   position: fixed;
   top: 0;
-  z-index: 99;
+  z-index: 1100;
   width: 100%;
   background-color: hsl(from var(--primary) h s l / 90%);
   & ul {
