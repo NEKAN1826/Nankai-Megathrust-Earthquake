@@ -26,6 +26,14 @@
   --off-white: #f0f0f0;
 }
 
+/* body * {
+  outline: red 1px dashed !important;
+}
+ */
+body {
+  overflow-x: hidden;
+}
+
 #intro {
   h2 {
     color: hsl(from var(--secondary) h 80% l);
@@ -33,15 +41,31 @@
 }
 
 #cause {
+  .two-col-grid {
+    @media (width < 1200px) {
+      grid-template-columns: unset;
+    }
+  }
+}
+
+.dark-blue-bg {
   --section-bg-color: var(--primary-saturated);
   background-image: url(../textures/black-orchid.png);
   --header-color: var(--off-white);
   color: var(--off-white);
   font-weight: 500;
+  a {
+    color: var(--secondary);
+    font-weight: 600;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 #nankaiMap {
-  height: 100%;
+  min-height: 600px;
+  height: clamp(600px, 100%, 850px);
 }
 
 #history {
@@ -60,6 +84,7 @@
   padding: 0;
   .bg {
     background-image: url(../img/US_Navy_110322-N-SB672-673_An_aerial_view_of_Baba_Utatsu_Minamisanriku\,_Motoyoshi\,_Japan\,_11_days_after_a_9.0_magnitude_earthquake_and_subsequent_tsunami.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
@@ -76,6 +101,7 @@
       height: 100%;
       padding: 30px 15px;
       background-color: rgba(0, 0, 0, 0.4);
+      position: relative;
       @media (width > 600px) {
         padding: 30px 10%;
       }
@@ -107,12 +133,58 @@
 @media (min-width: 900px) {
   @keyframes bg-zoom-out {
     from {
-      background-size: 130%;
+      background-size: 150%;
     }
     to {
-      background-size: 100%;
+      background-size: 125%;
     }
   }
+}
+
+#next {
+  position: relative;
+  z-index: -2;
+}
+
+.dark-gradient::before {
+  content: "";
+  z-index: -1;
+  height: 100%;
+  width: 100svw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #000000;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.36) 0%,
+    rgba(0, 0, 0, 0.19) 66%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.bg-attribution {
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  color: var(--off-white);
+  & p {
+    font-size: 11px;
+  }
+}
+
+#safety {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.embed-video {
+  align-self: center;
+  padding: 30px;
+  aspect-ratio: 16/9;
+  width: 70%;
+  height: auto;
 }
 
 .trans-img {
@@ -206,8 +278,23 @@ a {
   }
 }
 
+figure {
+  & figcaption {
+    text-align: left;
+    padding-top: 15px;
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+}
+
+.attribution {
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
 main {
   & section {
+    /* overflow-x: hidden; */
     --section-bg-color: white;
     --in-view: false;
     animation: section-in-view both;
@@ -351,7 +438,7 @@ footer {
 .two-col-grid {
   display: grid;
   gap: 2rem;
-  @media (width > 800px) {
+  @media (width > 600px) {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -372,10 +459,12 @@ footer {
   }
 }
 
-.img-row-4 {
+.img-row-150 {
   display: grid;
-  grid-template-columns: repeat(4, 20%);
+  grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 20%));
+  gap: 1rem;
   justify-content: center;
+  padding: 30px 0;
 }
 
 .timeline {
