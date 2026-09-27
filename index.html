@@ -11,29 +11,45 @@
   </head>
   <body>
     <header class="mainnav">
-      <nav>
+      <nav data-open="false">
+        <div class="burger-button">
+          <a onclick="toggleMenu('.mainnav', 'nav', event)" href="#"
+            ><img
+              class="open"
+              src="./img/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="Navigation öffnen"
+          /></a>
+          <a onclick="toggleMenu('.mainnav', 'nav', event)" href="#"
+            ><img
+              class="close"
+              src="./img/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="Navigation schließen"
+          /></a>
+        </div>
         <ul>
           <li>
-            <a href="" onclick="scrollToAnchor('intro', event)">Einleitung</a>
+            <a href="#" onclick="scrollToAnchor('intro', event)">Einleitung</a>
           </li>
           <li>
-            <a href="" onclick="scrollToAnchor('cause', event)">Ursache</a>
+            <a href="#" onclick="scrollToAnchor('cause', event)">Ursache</a>
           </li>
           <li>
-            <a href="" onclick="scrollToAnchor('history', event)">Geschichte</a>
+            <a href="#" onclick="scrollToAnchor('history', event)"
+              >Geschichte</a
+            >
           </li>
           <li>
-            <a href="" onclick="scrollToAnchor('next-hero', event)"
+            <a href="#" onclick="scrollToAnchor('next-hero', event)"
               >Akutelle Gefahr</a
             >
           </li>
           <li>
-            <a href="" onclick="scrollToAnchor('safety', event)"
+            <a href="#" onclick="scrollToAnchor('safety', event)"
               >Staatliche Bemühungen</a
             >
           </li>
           <li>
-            <a href="" onclick="scrollToAnchor('advice', event)"
+            <a href="#" onclick="scrollToAnchor('advice', event)"
               >Sicherheitsmaßnahmen</a
             >
           </li>
@@ -134,17 +150,17 @@
               Megathrust-Erdbeben entstehen an Subduktionszonen. Dort wo sich
               eine Erdplatte unter eine andere schiebt. Vor der Südwestküste
               Japans verläuft eine dieser Zonen: der
-              <a href="" onclick="moveMap('', event)">Nankai-Trog</a>.
+              <a href="#" onclick="moveMap('', event)">Nankai-Trog</a>.
             </p>
             <p>
               Hier taucht die
-              <a href="" onclick="moveMap('', event)">Philippinische Platte</a>
-              unter die <a href="" onclick="moveMap('', event)">Amur-Platte</a>.
-              Doch die Platten gleiten nicht gleichmäßig aneinander vorbei. Sie
-              verhaken sich. Während die Philippinische Platte sich weiter nach
-              Norden bewegt, wird der Rand der darüberliegenden Platte
-              mitgezogen. Über Jahrzehnte und Jahrhunderte bauen sich so enorme
-              Spannung auf.
+              <a href="#" onclick="moveMap('', event)">Philippinische Platte</a>
+              unter die
+              <a href="#" onclick="moveMap('', event)">Amur-Platte</a>. Doch die
+              Platten gleiten nicht gleichmäßig aneinander vorbei. Sie verhaken
+              sich. Während die Philippinische Platte sich weiter nach Norden
+              bewegt, wird der Rand der darüberliegenden Platte mitgezogen. Über
+              Jahrzehnte und Jahrhunderte bauen sich so enorme Spannung auf.
             </p>
             <p>
               Irgendwann überschreitet diese Spannung die Belastungsgrenze des
@@ -156,7 +172,7 @@
             </p>
             <p>
               Der Nankai-Trog ist in
-              <a href="" onclick="moveMap('', event)">fünf Segmente</a>
+              <a href="#" onclick="moveMap('', event)">fünf Segmente</a>
               unterteilt, bezeichnet mit A bis E. Diese lassen sich grob drei
               Zonen zuordnen: Tokai, Tonankai und Nankai. Die Segmente können
               einzeln oder kaskadenartig kurz hintereinander reißen. So folgt
@@ -173,13 +189,13 @@
             <p>
               Solche Großbeben wiederholen sich in Abständen von etwa 90 bis 200
               Jahren. Ein besonders hohes Risiko geht derzeit vom
-              <a href="" onclick="moveMap('', event)">Segment E</a> aus, wo es
+              <a href="#" onclick="moveMap('', event)">Segment E</a> aus, wo es
               seit 1854 kein großes Beben mehr gab.
             </p>
             <p>
               Die besondere Gefahr liegt in der Lage des Trogs. Dieser verläuft
               quasi parallel zu Japans dicht
-              <a href="" onclick="moveMap('', event)">besiedelter Ostküste</a>.
+              <a href="#" onclick="moveMap('', event)">besiedelter Ostküste</a>.
               Millionenstädte wie Tokio, Yokohama und Osaka könnten von Erdbeben
               und Tsunami betroffen sein.
             </p>
@@ -845,6 +861,17 @@
               verschiedenen Instituten angeboten. Auch werden Bürger gebeten
               sich etwa durch Vorräte zusätzlich privat vorzubereiten.
             </p>
+            <p>
+              Ein zusätzliches Protokoll wurde für das Megathrust-Erdbeben
+              eingeführt, laut dem Behörden bereits bei einem Indiz für einen
+              baldigen Riss im Nankai-Trog, Warnungen oder gar eine Evakuation
+              der gefährdeten Gebiete aussprechen. Erstmals kam es am 8. August
+              2024 zu einer solchen Warnung, nachdem vor der Küste Miyazakis ein
+              Erdbeben der Stärke 6 registriert worden war. Grund für die
+              Warnung ist die Annahme, dass ähnlich wie im Jahr 2011 ein
+              Megathrust auf ein Erdbeben der Stärke 6 oder höher folgen könnte.
+              Die Entwarnung folgte jedoch eine Woche später.
+            </p>
           </div>
           <figure>
             <img
@@ -856,17 +883,6 @@
             </figcaption>
           </figure>
         </div>
-        <p>
-          Zusätzlich wurde für das Megathrust-Erdbeben ein Protokoll eingeführt,
-          laut dem Behörden bereits bei einem Indiz für einen baldigen Riss im
-          Nankai-Trog, Warnungen oder gar eine Evakuation der gefährdeten
-          Gebiete aussprechen. Erstmals kam es am 8. August 2024 zu einer
-          solchen Warnung, nachdem vor der Küste Miyazakis ein Erdbeben der
-          Stärke 6 registriert worden war. Grund für die Warnung ist die
-          Annahme, dass ähnlich wie im Jahr 2011 ein Megathrust auf ein Erdbeben
-          der Stärke 6 oder höher folgen könnte. Die Entwarnung folgte jedoch
-          eine Woche später.
-        </p>
         <p>
           Nachdem die Regierung nun nach dem Tōhoku-Erdbeben das Risiko eines
           Nankai-Megathrust-Erdbebens enue einschätzte, setzte sie sich 2014 das

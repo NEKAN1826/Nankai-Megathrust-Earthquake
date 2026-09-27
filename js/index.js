@@ -96,6 +96,43 @@ function scrollToAnchor(id, event) {
   return;
 }
 
+var userAgent = navigator.userAgent;
+if (userAgent.indexOf("Chrome") > -1) {
+  window.addEventListener("resize", checkResize);
+}
+
+function checkResize() {
+  console.log(window.innerWidth);
+  if (window.innerWidth < 1200) {
+    const main = document.querySelector("main");
+    main.classList.add("overflow-hidden");
+    window.removeEventListener("resize", checkResize);
+  }
+}
+
+let animSet = false;
+
+function toggleMenu(wrapperClass, contentElem, event) {
+  try {
+    if (event) event.preventDefault();
+    const menuElement = document.querySelector(
+      `${wrapperClass} ${contentElem}`,
+    );
+
+    let state = menuElement.getAttribute("data-open");
+    menuElement.setAttribute("data-open", state == "false" ? "true" : "false");
+    if (animSet) return;
+    if (state == "false") {
+      const animTarget = document.querySelector(wrapperClass);
+      animTarget.classList.add("closing");
+      animSet = true;
+    }
+  } catch (error) {
+    console.log(error);
+  }
+  return;
+}
+
 var southWest = L.latLng(20, 100),
   northEast = L.latLng(50, 161),
   bounds = L.latLngBounds(southWest, northEast);
