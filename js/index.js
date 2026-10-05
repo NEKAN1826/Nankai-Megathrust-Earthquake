@@ -102,7 +102,6 @@ if (userAgent.indexOf("Chrome") > -1) {
 }
 
 function checkResize() {
-  console.log(window.innerWidth);
   if (window.innerWidth < 1200) {
     const main = document.querySelector("main");
     main.classList.add("overflow-hidden");
@@ -133,6 +132,8 @@ function toggleMenu(wrapperClass, contentElem, event) {
   return;
 }
 
+/* Leaflet Code */
+/* Setup Leaflet Map */
 var southWest = L.latLng(20, 100),
   northEast = L.latLng(50, 161),
   bounds = L.latLngBounds(southWest, northEast);
@@ -142,6 +143,8 @@ var map = L.map("nankaiMap", {
 });
 
 map.setView([34.42, 135, 30], 5.4);
+
+var layerControl = L.control.layers().addTo(map);
 
 var OpenStreetMap_DE = L.tileLayer(
   "https://tile.openstreetmap.de/{z}/{x}/{y}.png",
@@ -154,36 +157,75 @@ var OpenStreetMap_DE = L.tileLayer(
 );
 
 OpenStreetMap_DE.addTo(map);
+/* Fetch json Files */
+async function fetchJson(path) {
+  const apiCallPromise = await fetch(path);
+  const apiCallObj = await apiCallPromise.json();
+  return apiCallObj;
+}
 
-fetch("data/PB2002_boundaries.json")
-  .then((response) => response.json())
-  .then((geojsonData) => {
-    console.log(geojsonData);
-    L.geoJSON(geojsonData, {
-      style: {
-        color: "#ff1100",
-        weight: 2,
-        opacity: 0.7,
-      },
-    }).addTo(map);
-  });
+async function geoToMap(geojson, style) {
+  let data = await geojson;
+  return L.geoJSON(data, { style, onEachFeature: addPopups });
+}
 
-fetch("data/PB2002_plates.json")
-  .then((response) => response.json())
-  .then((geojsonData) => {
-    console.log(geojsonData);
-    L.geoJSON(geojsonData, {
-      style: {
-        color: "#ff1100",
-        weight: 3,
-        opacity: 0.7,
-      },
-      onEachFeature: addPopups,
-    }).addTo(map);
-  });
+async function processLayers(layerObj) {
+  try {
+    var overlayMaps = {};
+    let visibleLayer;
+    for (key in layerObj) {
+      let tempJson = await layerObj[key];
+      let style = tempJson.style || "";
+      let group = [];
+      tempJson.features.forEach((feature) => {
+        let tempGeo = L.geoJSON(feature, {
+          style,
+          onEachFeature: addPopups,
+        });
+        group.push(tempGeo);
+      });
+      console.log(tempJson.name);
+      let layerGroup = L.layerGroup(group);
+      if (tempJson.visible) {
+        layerGroup.addTo(map);
+      }
+      layerControl.addOverlay(layerGroup, key);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+const geojsonFiles = {
+  Risszonen: fetchJson("data/nankai_rupture_zones.geojson"),
+  "Mögliche Beben": fetchJson("data/common_nankai_rupture_zones.geojson"),
+  Erdplatten: fetchJson("data/PB2002_plates.json"),
+  "Nankai-Trog": fetchJson("data/testboundary.geojson"),
+};
+
+let plateStyle = {
+  smoothFactor: 2,
+  fillColor: "gray",
+  fillOpacity: 0.2,
+  color: "gray",
+  weight: 2,
+  opacity: 0.6,
+};
+
+processLayers(geojsonFiles);
 
 function addPopups(feature, layer) {
-  if (feature.properties && feature.properties.PlateName) {
-    layer.bindPopup(feature.properties.PlateName);
+  if (!feature) return;
+  let popupContent = "";
+  if (feature.properties.name) {
+    if (feature.properties.ruptureGroup) {
+      popupContent += `<h4 style="color:black">${feature.properties.ruptureGroup}</h4><p>${feature.properties.name}</p>`;
+    } else {
+      popupContent += `<h4 style="color:black">${feature.properties.name}</h4>`;
+    }
   }
+
+  if (feature.properties.description)
+    popupContent += `<p>${feature.properties.description}</p>`;
+  layer.bindPopup(popupContent);
 }

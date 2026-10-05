@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AF-AN",
+        "name": "AF-AN",
         "Source": "Mueller et al. [1987]",
         "PlateA": "AF",
         "PlateB": "AN",
@@ -38,7 +38,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AF-AN",
+        "name": "AF-AN",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "AF",
         "PlateB": "AN",
@@ -82,7 +82,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AN-AF",
+        "name": "AN-AF",
         "Source": "Lemaux et al. [2002]",
         "PlateA": "AN",
         "PlateB": "AF",
@@ -125,7 +125,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SO-AN",
+        "name": "SO-AN",
         "Source": "Lemaux et al. [2002]",
         "PlateA": "SO",
         "PlateB": "AN",
@@ -161,7 +161,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SO-AN",
+        "name": "SO-AN",
         "Source": "Mueller et al. [1987]",
         "PlateA": "SO",
         "PlateB": "AN",
@@ -270,7 +270,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SO-IN",
+        "name": "SO-IN",
         "Source": "Mueller et al. [1987]",
         "PlateA": "SO",
         "PlateB": "IN",
@@ -302,7 +302,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU-SO",
+        "name": "AU-SO",
         "Source": "Mueller et al. [1987]",
         "PlateA": "AU",
         "PlateB": "SO",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-AF",
+        "name": "EU-AF",
         "Source": "W part, by Peter Bird, 1999",
         "PlateA": "EU",
         "PlateB": "AF",
@@ -530,7 +530,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-AF",
+        "name": "EU-AF",
         "Source": "by Peter Bird, 2002.03",
         "PlateA": "EU",
         "PlateB": "AF",
@@ -556,7 +556,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU\\AF",
+        "name": "EU\\AF",
         "Source": "by Peter Bird, 2002.03",
         "PlateA": "EU",
         "PlateB": "AF",
@@ -586,7 +586,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-AF",
+        "name": "EU-AF",
         "Source": "by Peter Bird, 2002.03",
         "PlateA": "EU",
         "PlateB": "AF",
@@ -610,7 +610,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU\/AF",
+        "name": "EU\/AF",
         "Source": "by Peter Bird, 2002.03",
         "PlateA": "EU",
         "PlateB": "AF",
@@ -639,7 +639,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-AF",
+        "name": "EU-AF",
         "Source": "by Peter Bird, 2002.03",
         "PlateA": "EU",
         "PlateB": "AF",
@@ -660,7 +660,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "IN-SO",
+        "name": "IN-SO",
         "Source": "Mueller et al. [1987]",
         "PlateA": "IN",
         "PlateB": "SO",
@@ -745,7 +745,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA-AF",
+        "name": "NA-AF",
         "Source": "Mueller et al. [1987]",
         "PlateA": "NA",
         "PlateB": "AF",
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AF-SA",
+        "name": "AF-SA",
         "Source": "Mueller et al. [1987]",
         "PlateA": "AF",
         "PlateB": "SA",
@@ -1042,7 +1042,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AF-SA",
+        "name": "AF-SA",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "AF",
         "PlateB": "SA",
@@ -1103,7 +1103,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AF-SA",
+        "name": "AF-SA",
         "Source": "Mueller et al. [1987]",
         "PlateA": "AF",
         "PlateB": "SA",
@@ -1159,7 +1159,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU-AN",
+        "name": "AU-AN",
         "Source": "Mueller et al. [1987]",
         "PlateA": "AU",
         "PlateB": "AN",
@@ -1285,7 +1285,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU-AN",
+        "name": "AU-AN",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "AU",
         "PlateB": "AN",
@@ -1374,7 +1374,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU-AN",
+        "name": "AU-AN",
         "Source": "Mueller et al. [1987]",
         "PlateA": "AU",
         "PlateB": "AN",
@@ -1416,7 +1416,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AN-NZ",
+        "name": "AN-NZ",
         "Source": "mostly Mueller et al. [1987]; edited by P. Bird, 1999",
         "PlateA": "AN",
         "PlateB": "NZ",
@@ -1494,7 +1494,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-AN",
+        "name": "PA-AN",
         "Source": "Mueller et al. [1987]",
         "PlateA": "PA",
         "PlateB": "AN",
@@ -1642,7 +1642,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-AN",
+        "name": "PA-AN",
         "Source": "Mueller et al. [1987]",
         "PlateA": "PA",
         "PlateB": "AN",
@@ -1696,7 +1696,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-AN",
+        "name": "PA-AN",
         "Source": "Mueller et al. [1987]",
         "PlateA": "PA",
         "PlateB": "AN",
@@ -1844,7 +1844,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AN-SA",
+        "name": "AN-SA",
         "Source": "Mueller et al. [1987]",
         "PlateA": "AN",
         "PlateB": "SA",
@@ -1905,7 +1905,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AN\\SA",
+        "name": "AN\\SA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "AN",
         "PlateB": "SA",
@@ -1932,7 +1932,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AR-EU",
+        "name": "AR-EU",
         "Source": "by Peter Bird, 1999",
         "PlateA": "AR",
         "PlateB": "EU",
@@ -1987,7 +1987,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SU\/AU",
+        "name": "SU\/AU",
         "Source": "Mueller et al. [1987]",
         "PlateA": "SU",
         "PlateB": "AU",
@@ -2034,7 +2034,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "TI-AU",
+        "name": "TI-AU",
         "Source": "Mueller et al. [1987]",
         "PlateA": "TI",
         "PlateB": "AU",
@@ -2070,7 +2070,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "TI-AU",
+        "name": "TI-AU",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "TI",
         "PlateB": "AU",
@@ -2090,7 +2090,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-AU",
+        "name": "PA-AU",
         "Source": "Mueller et al. [1987]",
         "PlateA": "PA",
         "PlateB": "AU",
@@ -2111,7 +2111,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU\\PA",
+        "name": "AU\\PA",
         "Source": "Mueller et al. [1987]",
         "PlateA": "AU",
         "PlateB": "PA",
@@ -2134,7 +2134,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU-PA",
+        "name": "AU-PA",
         "Source": "Mueller et al. [1987]",
         "PlateA": "AU",
         "PlateB": "PA",
@@ -2165,7 +2165,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "KE\/PA",
+        "name": "KE\/PA",
         "Source": "Mueller et al. [1987]",
         "PlateA": "KE",
         "PlateB": "PA",
@@ -2217,7 +2217,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "KE\/PA",
+        "name": "KE\/PA",
         "Source": "Mueller et al. [1987]",
         "PlateA": "KE",
         "PlateB": "PA",
@@ -2249,7 +2249,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "KE\/PA",
+        "name": "KE\/PA",
         "Source": "Mueller et al. [1987]",
         "PlateA": "KE",
         "PlateB": "PA",
@@ -2301,7 +2301,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "TO\/PA",
+        "name": "TO\/PA",
         "Source": "Mueller et al. [1987]",
         "PlateA": "TO",
         "PlateB": "PA",
@@ -2351,7 +2351,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "KE-AU",
+        "name": "KE-AU",
         "Source": "Circum Pacific Map Project [1981]",
         "PlateA": "KE",
         "PlateB": "AU",
@@ -2383,7 +2383,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "KE-AU",
+        "name": "KE-AU",
         "Source": "Circum Pacific Map Project [1981]",
         "PlateA": "KE",
         "PlateB": "AU",
@@ -2424,7 +2424,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "KE-AU",
+        "name": "KE-AU",
         "Source": "Circum Pacific Map Project [1981]",
         "PlateA": "KE",
         "PlateB": "AU",
@@ -2456,7 +2456,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-NI",
+        "name": "PA-NI",
         "Source": "Mueller et al. [1987]",
         "PlateA": "PA",
         "PlateB": "NI",
@@ -2478,7 +2478,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-TO",
+        "name": "PA-TO",
         "Source": "",
         "PlateA": "PA",
         "PlateB": "TO",
@@ -2496,7 +2496,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "WL-MO",
+        "name": "WL-MO",
         "Source": "by Peter Bird, 2001.05",
         "PlateA": "WL",
         "PlateB": "MO",
@@ -2520,7 +2520,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "WL-AU",
+        "name": "WL-AU",
         "Source": "by Peter Bird, 2001.05",
         "PlateA": "WL",
         "PlateB": "AU",
@@ -2549,7 +2549,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SB\/SS",
+        "name": "SB\/SS",
         "Source": "Circum Pacific Map Project [1981]",
         "PlateA": "SB",
         "PlateB": "SS",
@@ -2578,7 +2578,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NB\/SS",
+        "name": "NB\/SS",
         "Source": "Circum Pacific Map Project [1981]",
         "PlateA": "NB",
         "PlateB": "SS",
@@ -2598,7 +2598,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA\/SS",
+        "name": "PA\/SS",
         "Source": "Circum Pacific Map Project [1981]",
         "PlateA": "PA",
         "PlateB": "SS",
@@ -2616,7 +2616,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA\/WL",
+        "name": "PA\/WL",
         "Source": "Circum Pacific Map Project [1981]",
         "PlateA": "PA",
         "PlateB": "WL",
@@ -2636,7 +2636,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SS\\WL",
+        "name": "SS\\WL",
         "Source": "Lock et al. [1987]",
         "PlateA": "SS",
         "PlateB": "WL",
@@ -2672,7 +2672,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU-WL",
+        "name": "AU-WL",
         "Source": "by Peter Bird, 2001.05",
         "PlateA": "AU",
         "PlateB": "WL",
@@ -2699,7 +2699,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA\/AU",
+        "name": "PA\/AU",
         "Source": "Mueller et al. [1987]",
         "PlateA": "PA",
         "PlateB": "AU",
@@ -2817,7 +2817,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NH\/AU",
+        "name": "NH\/AU",
         "Source": "Mueller et al. [1987]",
         "PlateA": "NH",
         "PlateB": "AU",
@@ -2931,7 +2931,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CA-NA",
+        "name": "CA-NA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "CA",
         "PlateB": "NA",
@@ -3000,7 +3000,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CA\/CO",
+        "name": "CA\/CO",
         "Source": "by Peter Bird, 1999",
         "PlateA": "CA",
         "PlateB": "CO",
@@ -3025,7 +3025,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CA-SA",
+        "name": "CA-SA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "CA",
         "PlateB": "SA",
@@ -3052,7 +3052,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CA\/SA",
+        "name": "CA\/SA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "CA",
         "PlateB": "SA",
@@ -3092,7 +3092,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CO\\NA",
+        "name": "CO\\NA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "CO",
         "PlateB": "NA",
@@ -3143,7 +3143,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CO-PA",
+        "name": "CO-PA",
         "Source": "truncated from Mueller et al. [1987]",
         "PlateA": "CO",
         "PlateB": "PA",
@@ -3191,7 +3191,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CO-NZ",
+        "name": "CO-NZ",
         "Source": "Mueller et al. [1987]",
         "PlateA": "CO",
         "PlateB": "NZ",
@@ -3252,7 +3252,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-IN",
+        "name": "EU-IN",
         "Source": "by Peter Bird, 1999",
         "PlateA": "EU",
         "PlateB": "IN",
@@ -3296,7 +3296,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-IN",
+        "name": "EU-IN",
         "Source": "by Peter Bird, 1999",
         "PlateA": "EU",
         "PlateB": "IN",
@@ -3357,7 +3357,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA-EU",
+        "name": "NA-EU",
         "Source": "by Peter Bird, 1999",
         "PlateA": "NA",
         "PlateB": "EU",
@@ -3400,7 +3400,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA-EU",
+        "name": "NA-EU",
         "Source": "Mueller et al. [1987]",
         "PlateA": "NA",
         "PlateB": "EU",
@@ -3621,7 +3621,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA-EU",
+        "name": "NA-EU",
         "Source": "Mueller et al. [1987]",
         "PlateA": "NA",
         "PlateB": "EU",
@@ -3909,7 +3909,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA\\OK",
+        "name": "PA\\OK",
         "Source": "Mueller et al. [1987]",
         "PlateA": "PA",
         "PlateB": "OK",
@@ -3962,7 +3962,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-JF",
+        "name": "PA-JF",
         "Source": "Mueller et al. [1987]; N end by Peter Bird, 1999",
         "PlateA": "PA",
         "PlateB": "JF",
@@ -4022,7 +4022,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "JF\\NA",
+        "name": "JF\\NA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "JF",
         "PlateB": "NA",
@@ -4091,7 +4091,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "OK\/PA",
+        "name": "OK\/PA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "OK",
         "PlateB": "PA",
@@ -4140,7 +4140,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA\/PA",
+        "name": "NA\/PA",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "NA",
         "PlateB": "PA",
@@ -4200,7 +4200,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA\/PA",
+        "name": "NA\/PA",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "NA",
         "PlateB": "PA",
@@ -4234,7 +4234,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA\/PA",
+        "name": "NA\/PA",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "NA",
         "PlateB": "PA",
@@ -4294,7 +4294,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA-PA",
+        "name": "NA-PA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "NA",
         "PlateB": "PA",
@@ -4339,7 +4339,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA-PA",
+        "name": "NA-PA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "NA",
         "PlateB": "PA",
@@ -4378,7 +4378,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA-PA",
+        "name": "NA-PA",
         "Source": "Mueller et al. [1987]",
         "PlateA": "NA",
         "PlateB": "PA",
@@ -4461,7 +4461,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA-SA",
+        "name": "NA-SA",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "NA",
         "PlateB": "SA",
@@ -4500,7 +4500,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NZ-PA",
+        "name": "NZ-PA",
         "Source": "Mueller et al. [1987]; Naar and Hey [1991]",
         "PlateA": "NZ",
         "PlateB": "PA",
@@ -4594,7 +4594,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NZ\\SA",
+        "name": "NZ\\SA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "NZ",
         "PlateB": "SA",
@@ -4650,7 +4650,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NZ\\AP",
+        "name": "NZ\\AP",
         "Source": "by Peter Bird, 1999",
         "PlateA": "NZ",
         "PlateB": "AP",
@@ -4679,7 +4679,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NZ\\SA",
+        "name": "NZ\\SA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "NZ",
         "PlateB": "SA",
@@ -4717,7 +4717,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NZ\\ND",
+        "name": "NZ\\ND",
         "Source": "by Peter Bird, 1999",
         "PlateA": "NZ",
         "PlateB": "ND",
@@ -4750,7 +4750,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "ON\/PS",
+        "name": "ON\/PS",
         "Source": "by Peter Bird, May 2002",
         "PlateA": "ON",
         "PlateB": "PS",
@@ -4783,7 +4783,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AM\/PS",
+        "name": "AM\/PS",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "AM",
         "PlateB": "PS",
@@ -4816,7 +4816,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "OK-PS",
+        "name": "OK-PS",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "OK",
         "PlateB": "PS",
@@ -4841,7 +4841,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PS-CL",
+        "name": "PS-CL",
         "Source": "by Peter Bird, 1999",
         "PlateA": "PS",
         "PlateB": "CL",
@@ -4866,7 +4866,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PS\/PA",
+        "name": "PS\/PA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "PS",
         "PlateB": "PA",
@@ -4893,7 +4893,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MA\/PA",
+        "name": "MA\/PA",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "MA",
         "PlateB": "PA",
@@ -4936,7 +4936,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PS\/PA",
+        "name": "PS\/PA",
         "Source": "by Peter Bird, 1999",
         "PlateA": "PS",
         "PlateB": "PA",
@@ -4971,7 +4971,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "KE-TO",
+        "name": "KE-TO",
         "Source": "by Peter Bird, 2001",
         "PlateA": "KE",
         "PlateB": "TO",
@@ -4992,7 +4992,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NI-FT",
+        "name": "NI-FT",
         "Source": "Zellmer and Taylor [2001]",
         "PlateA": "NI",
         "PlateB": "FT",
@@ -5018,7 +5018,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NI-AU",
+        "name": "NI-AU",
         "Source": "Zellmer and Taylor [2001]",
         "PlateA": "NI",
         "PlateB": "AU",
@@ -5065,7 +5065,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "TO-NI",
+        "name": "TO-NI",
         "Source": "Zellmer and Taylor [2001]",
         "PlateA": "TO",
         "PlateB": "NI",
@@ -5118,7 +5118,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "TO-AU",
+        "name": "TO-AU",
         "Source": "Zellmer and Taylor [2001]",
         "PlateA": "TO",
         "PlateB": "AU",
@@ -5161,7 +5161,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SC\/AN",
+        "name": "SC\/AN",
         "Source": "Klepeis and Lawver, 1996",
         "PlateA": "SC",
         "PlateB": "AN",
@@ -5194,7 +5194,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SC-AN",
+        "name": "SC-AN",
         "Source": "Klepeis and Lawver, 1996",
         "PlateA": "SC",
         "PlateB": "AN",
@@ -5218,7 +5218,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SL\/AN",
+        "name": "SL\/AN",
         "Source": "Klepeis and Lawver, 1996",
         "PlateA": "SL",
         "PlateB": "AN",
@@ -5244,7 +5244,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SL-AN",
+        "name": "SL-AN",
         "Source": "Klepeis and Lawver, 1996",
         "PlateA": "SL",
         "PlateB": "AN",
@@ -5270,7 +5270,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SC-SL",
+        "name": "SC-SL",
         "Source": "Peter Bird, September 2001",
         "PlateA": "SC",
         "PlateB": "SL",
@@ -5292,7 +5292,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SC-AN",
+        "name": "SC-AN",
         "Source": "Klepeis and Lawver, 1996",
         "PlateA": "SC",
         "PlateB": "AN",
@@ -5318,7 +5318,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU\/AF",
+        "name": "EU\/AF",
         "Source": "Peter Bird, September 2001",
         "PlateA": "EU",
         "PlateB": "AF",
@@ -5336,7 +5336,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AS-AT",
+        "name": "AS-AT",
         "Source": "McClusky et al., 2000",
         "PlateA": "AS",
         "PlateB": "AT",
@@ -5368,7 +5368,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AS-EU",
+        "name": "AS-EU",
         "Source": "McClusky et al., 2000",
         "PlateA": "AS",
         "PlateB": "EU",
@@ -5399,7 +5399,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AR-AF",
+        "name": "AR-AF",
         "Source": "McClusky et al., 2000",
         "PlateA": "AR",
         "PlateB": "AF",
@@ -5427,7 +5427,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AT-AR",
+        "name": "AT-AR",
         "Source": "McClusky et al., 2000",
         "PlateA": "AT",
         "PlateB": "AR",
@@ -5456,7 +5456,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-AR",
+        "name": "EU-AR",
         "Source": "Peter Bird, September 2001",
         "PlateA": "EU",
         "PlateB": "AR",
@@ -5486,7 +5486,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AT-EU",
+        "name": "AT-EU",
         "Source": "McClusky et al., 2000",
         "PlateA": "AT",
         "PlateB": "EU",
@@ -5527,7 +5527,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "OK\/NA",
+        "name": "OK\/NA",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "OK",
         "PlateB": "NA",
@@ -5557,7 +5557,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "OK-NA",
+        "name": "OK-NA",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "OK",
         "PlateB": "NA",
@@ -5594,7 +5594,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "OK-EU",
+        "name": "OK-EU",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "OK",
         "PlateB": "EU",
@@ -5633,7 +5633,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "OK-AM",
+        "name": "OK-AM",
         "Source": "Wei and Seno, 1998; detail by Peter Bird",
         "PlateA": "OK",
         "PlateB": "AM",
@@ -5691,7 +5691,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AM-EU",
+        "name": "AM-EU",
         "Source": "by Peter Bird, May 2002",
         "PlateA": "AM",
         "PlateB": "EU",
@@ -5796,7 +5796,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-SU",
+        "name": "EU-SU",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "EU",
         "PlateB": "SU",
@@ -5839,7 +5839,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "YA-SU",
+        "name": "YA-SU",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "YA",
         "PlateB": "SU",
@@ -5869,7 +5869,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BU-EU",
+        "name": "BU-EU",
         "Source": "Circum Pacific Mapping Project, 1986",
         "PlateA": "BU",
         "PlateB": "EU",
@@ -5888,7 +5888,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "IN-EU",
+        "name": "IN-EU",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "IN",
         "PlateB": "EU",
@@ -5926,7 +5926,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BU\/IN",
+        "name": "BU\/IN",
         "Source": "Circum Pacific Mapping Project, 1986",
         "PlateA": "BU",
         "PlateB": "IN",
@@ -5951,7 +5951,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BU\/AU",
+        "name": "BU\/AU",
         "Source": "Circum Pacific Mapping Project, 1986",
         "PlateA": "BU",
         "PlateB": "AU",
@@ -5971,7 +5971,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SU\/AU",
+        "name": "SU\/AU",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "SU",
         "PlateB": "AU",
@@ -6007,7 +6007,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-YA",
+        "name": "EU-YA",
         "Source": "by Peter Bird, May 2002",
         "PlateA": "EU",
         "PlateB": "YA",
@@ -6076,7 +6076,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AP-SA",
+        "name": "AP-SA",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "AP",
         "PlateB": "SA",
@@ -6134,7 +6134,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-NA",
+        "name": "PA-NA",
         "Source": "DeMets and Wilson, 1997",
         "PlateA": "PA",
         "PlateB": "NA",
@@ -6158,7 +6158,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "RI-PA",
+        "name": "RI-PA",
         "Source": "DeMets and Wilson, 1997",
         "PlateA": "RI",
         "PlateB": "PA",
@@ -6211,7 +6211,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA-RI",
+        "name": "NA-RI",
         "Source": "DeMets and Wilson, 1997",
         "PlateA": "NA",
         "PlateB": "RI",
@@ -6237,7 +6237,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NA\/RI",
+        "name": "NA\/RI",
         "Source": "DeMets and Wilson, 1997",
         "PlateA": "NA",
         "PlateB": "RI",
@@ -6271,7 +6271,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "RI-CO",
+        "name": "RI-CO",
         "Source": "DeMets and Wilson, 1997",
         "PlateA": "RI",
         "PlateB": "CO",
@@ -6292,7 +6292,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PS-YA",
+        "name": "PS-YA",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "PS",
         "PlateB": "YA",
@@ -6310,7 +6310,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PS-YA",
+        "name": "PS-YA",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "PS",
         "PlateB": "YA",
@@ -6333,7 +6333,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PS\/SU",
+        "name": "PS\/SU",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "PS",
         "PlateB": "SU",
@@ -6360,7 +6360,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PS-SU",
+        "name": "PS-SU",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "PS",
         "PlateB": "SU",
@@ -6389,7 +6389,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PS\\SU",
+        "name": "PS\\SU",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "PS",
         "PlateB": "SU",
@@ -6428,7 +6428,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SU-BH",
+        "name": "SU-BH",
         "Source": "by Peter Bird, June 2002",
         "PlateA": "SU",
         "PlateB": "BH",
@@ -6450,7 +6450,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BH\/SU",
+        "name": "BH\/SU",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "BH",
         "PlateB": "SU",
@@ -6468,7 +6468,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MS\\SU",
+        "name": "MS\\SU",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "MS",
         "PlateB": "SU",
@@ -6487,7 +6487,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MS\/SU",
+        "name": "MS\/SU",
         "Source": "Rangin et al. [1999]",
         "PlateA": "MS",
         "PlateB": "SU",
@@ -6513,7 +6513,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MS-BS",
+        "name": "MS-BS",
         "Source": "Rangin et al. [1999]",
         "PlateA": "MS",
         "PlateB": "BS",
@@ -6548,7 +6548,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MS-BS",
+        "name": "MS-BS",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "MS",
         "PlateB": "BS",
@@ -6568,7 +6568,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MS\\BH",
+        "name": "MS\\BH",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "MS",
         "PlateB": "BH",
@@ -6588,7 +6588,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BS\/SU",
+        "name": "BS\/SU",
         "Source": "Rangin et al. [1999]",
         "PlateA": "BS",
         "PlateB": "SU",
@@ -6611,7 +6611,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BS-SU",
+        "name": "BS-SU",
         "Source": "Rangin et al. [1999]",
         "PlateA": "BS",
         "PlateB": "SU",
@@ -6635,7 +6635,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BS-AU",
+        "name": "BS-AU",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "BS",
         "PlateB": "AU",
@@ -6657,7 +6657,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MS-BH",
+        "name": "MS-BH",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "MS",
         "PlateB": "BH",
@@ -6678,7 +6678,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BH-BS",
+        "name": "BH-BS",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "BH",
         "PlateB": "BS",
@@ -6696,7 +6696,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BH\\BS",
+        "name": "BH\\BS",
         "Source": "Rangin et al. [1999]",
         "PlateA": "BH",
         "PlateB": "BS",
@@ -6721,7 +6721,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BH-BS",
+        "name": "BH-BS",
         "Source": "Rangin et al. [1999]",
         "PlateA": "BH",
         "PlateB": "BS",
@@ -6740,7 +6740,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SU-TI",
+        "name": "SU-TI",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "SU",
         "PlateB": "TI",
@@ -6763,7 +6763,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BS-TI",
+        "name": "BS-TI",
         "Source": "Rangin et al. [1999]",
         "PlateA": "BS",
         "PlateB": "TI",
@@ -6801,7 +6801,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BH\/CL",
+        "name": "BH\/CL",
         "Source": "Puntodewo et al. [1994]",
         "PlateA": "BH",
         "PlateB": "CL",
@@ -6830,7 +6830,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BH\/PS",
+        "name": "BH\/PS",
         "Source": "Puntodewo et al. [1994]",
         "PlateA": "BH",
         "PlateB": "PS",
@@ -6853,7 +6853,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU-MO",
+        "name": "AU-MO",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "AU",
         "PlateB": "MO",
@@ -6880,7 +6880,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU-BH",
+        "name": "AU-BH",
         "Source": "Rangin et al. [1999]",
         "PlateA": "AU",
         "PlateB": "BH",
@@ -6899,7 +6899,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MO-BH",
+        "name": "MO-BH",
         "Source": "Rangin et al. [1999]",
         "PlateA": "MO",
         "PlateB": "BH",
@@ -6926,7 +6926,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SU-BU",
+        "name": "SU-BU",
         "Source": "per Brian Taylor, p.c., 2002",
         "PlateA": "SU",
         "PlateB": "BU",
@@ -6968,7 +6968,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "IN\\BU",
+        "name": "IN\\BU",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "IN",
         "PlateB": "BU",
@@ -6997,7 +6997,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "IN-BU",
+        "name": "IN-BU",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "IN",
         "PlateB": "BU",
@@ -7022,7 +7022,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MS\/SU",
+        "name": "MS\/SU",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "MS",
         "PlateB": "SU",
@@ -7041,7 +7041,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MS-SU",
+        "name": "MS-SU",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "MS",
         "PlateB": "SU",
@@ -7065,7 +7065,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-NA",
+        "name": "EU-NA",
         "Source": "by Peter Bird, November 2001",
         "PlateA": "EU",
         "PlateB": "NA",
@@ -7146,7 +7146,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "IN-AU",
+        "name": "IN-AU",
         "Source": "by Peter Bird, November 2001",
         "PlateA": "IN",
         "PlateB": "AU",
@@ -7211,7 +7211,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA\/AU",
+        "name": "PA\/AU",
         "Source": "Massell et al., 2000, Figure 3, Puysegur thrust",
         "PlateA": "PA",
         "PlateB": "AU",
@@ -7261,7 +7261,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-AU",
+        "name": "PA-AU",
         "Source": "Massell et al., 2000, Figure 3",
         "PlateA": "PA",
         "PlateB": "AU",
@@ -7331,7 +7331,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "ON-PS",
+        "name": "ON-PS",
         "Source": "by P. Bird, May 2002, after Lallemand et al. [1997b]",
         "PlateA": "ON",
         "PlateB": "PS",
@@ -7357,7 +7357,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "ON\/PS",
+        "name": "ON\/PS",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "ON",
         "PlateB": "PS",
@@ -7380,7 +7380,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "YA-ON",
+        "name": "YA-ON",
         "Source": "Letouzey & Kimura [1985]",
         "PlateA": "YA",
         "PlateB": "ON",
@@ -7430,7 +7430,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AM-ON",
+        "name": "AM-ON",
         "Source": "by Peter Bird, May 2002",
         "PlateA": "AM",
         "PlateB": "ON",
@@ -7456,7 +7456,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EU-AM",
+        "name": "EU-AM",
         "Source": "by Peter Bird, May 2002",
         "PlateA": "EU",
         "PlateB": "AM",
@@ -7477,7 +7477,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AM-YA",
+        "name": "AM-YA",
         "Source": "by Peter Bird, May 2002",
         "PlateA": "AM",
         "PlateB": "YA",
@@ -7504,7 +7504,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CL-PS",
+        "name": "CL-PS",
         "Source": "Weissel and Anderson [1978]",
         "PlateA": "CL",
         "PlateB": "PS",
@@ -7540,7 +7540,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-CL",
+        "name": "PA-CL",
         "Source": "by Peter Bird, June 2002",
         "PlateA": "PA",
         "PlateB": "CL",
@@ -7586,7 +7586,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CL-NB",
+        "name": "CL-NB",
         "Source": "by Peter Bird, June 2002",
         "PlateA": "CL",
         "PlateB": "NB",
@@ -7620,7 +7620,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-NB",
+        "name": "PA-NB",
         "Source": "by Peter Bird, June 2002",
         "PlateA": "PA",
         "PlateB": "NB",
@@ -7665,7 +7665,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CL\\WL",
+        "name": "CL\\WL",
         "Source": "by Peter Bird, June 2002",
         "PlateA": "CL",
         "PlateB": "WL",
@@ -7690,7 +7690,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "WL-BH",
+        "name": "WL-BH",
         "Source": "by Peter Bird, June 2001",
         "PlateA": "WL",
         "PlateB": "BH",
@@ -7708,7 +7708,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NB-SB",
+        "name": "NB-SB",
         "Source": "Auzende et al. [2000]; Martinez and Taylor [1996]",
         "PlateA": "NB",
         "PlateB": "SB",
@@ -7755,7 +7755,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NB\\WL",
+        "name": "NB\\WL",
         "Source": "by Peter Bird, June 2002",
         "PlateA": "NB",
         "PlateB": "WL",
@@ -7778,7 +7778,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NB-MN",
+        "name": "NB-MN",
         "Source": "",
         "PlateA": "NB",
         "PlateB": "MN",
@@ -7819,7 +7819,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "MN-SB",
+        "name": "MN-SB",
         "Source": "",
         "PlateA": "MN",
         "PlateB": "SB",
@@ -7853,7 +7853,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NB-SB",
+        "name": "NB-SB",
         "Source": "Martinez and Taylor [1996]; Taylor et al. [1995]",
         "PlateA": "NB",
         "PlateB": "SB",
@@ -7892,7 +7892,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SB-WL",
+        "name": "SB-WL",
         "Source": "Tregoning et al. [1998]",
         "PlateA": "SB",
         "PlateB": "WL",
@@ -7922,7 +7922,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "WL-SS",
+        "name": "WL-SS",
         "Source": "Taylor et al. [1995]",
         "PlateA": "WL",
         "PlateB": "SS",
@@ -7945,7 +7945,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "WL-AU",
+        "name": "WL-AU",
         "Source": "Taylor et al. [1995]",
         "PlateA": "WL",
         "PlateB": "AU",
@@ -8016,7 +8016,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PS-MA",
+        "name": "PS-MA",
         "Source": "Martinez et al. [2000]",
         "PlateA": "PS",
         "PlateB": "MA",
@@ -8080,7 +8080,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PS-MA",
+        "name": "PS-MA",
         "Source": "by Peter Bird, June 2002",
         "PlateA": "PS",
         "PlateB": "MA",
@@ -8099,7 +8099,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NH-PA",
+        "name": "NH-PA",
         "Source": "Auzende et al. [1995a]",
         "PlateA": "NH",
         "PlateB": "PA",
@@ -8141,7 +8141,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CR-NH",
+        "name": "CR-NH",
         "Source": "Auzende et al. [1994]",
         "PlateA": "CR",
         "PlateB": "NH",
@@ -8183,7 +8183,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NH-AU",
+        "name": "NH-AU",
         "Source": "Peter Bird, June 2002",
         "PlateA": "NH",
         "PlateB": "AU",
@@ -8205,7 +8205,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BR-NH",
+        "name": "BR-NH",
         "Source": "Peter Bird, June 2002",
         "PlateA": "BR",
         "PlateB": "NH",
@@ -8249,7 +8249,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BR-CR",
+        "name": "BR-CR",
         "Source": "Auzende et al. [1994]",
         "PlateA": "BR",
         "PlateB": "CR",
@@ -8275,7 +8275,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU-CR",
+        "name": "AU-CR",
         "Source": "Auzende et al. [1994]",
         "PlateA": "AU",
         "PlateB": "CR",
@@ -8316,7 +8316,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AU-CR",
+        "name": "AU-CR",
         "Source": "Peter Bird, June 2002",
         "PlateA": "AU",
         "PlateB": "CR",
@@ -8339,7 +8339,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BR-AU",
+        "name": "BR-AU",
         "Source": "Auzende et al. [1995a]",
         "PlateA": "BR",
         "PlateB": "AU",
@@ -8382,7 +8382,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BR-AU",
+        "name": "BR-AU",
         "Source": "Auzende et al. [1994]",
         "PlateA": "BR",
         "PlateB": "AU",
@@ -8400,7 +8400,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BR-AU",
+        "name": "BR-AU",
         "Source": "Auzende et al. [1994]",
         "PlateA": "BR",
         "PlateB": "AU",
@@ -8422,7 +8422,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "BR-AU",
+        "name": "BR-AU",
         "Source": "Auzende et al. [1994]",
         "PlateA": "BR",
         "PlateB": "AU",
@@ -8440,7 +8440,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-BR",
+        "name": "PA-BR",
         "Source": "Schellart et al. [2002]",
         "PlateA": "PA",
         "PlateB": "BR",
@@ -8473,7 +8473,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-BR",
+        "name": "PA-BR",
         "Source": "Peter Bird, June 2002",
         "PlateA": "PA",
         "PlateB": "BR",
@@ -8491,7 +8491,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-BR",
+        "name": "PA-BR",
         "Source": "Peter Bird, June 2002",
         "PlateA": "PA",
         "PlateB": "BR",
@@ -8514,7 +8514,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-BR",
+        "name": "PA-BR",
         "Source": "Peter Bird, June 2002",
         "PlateA": "PA",
         "PlateB": "BR",
@@ -8532,7 +8532,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-AU",
+        "name": "PA-AU",
         "Source": "Pelletier et al. [1998]",
         "PlateA": "PA",
         "PlateB": "AU",
@@ -8550,7 +8550,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "FT-AU",
+        "name": "FT-AU",
         "Source": "Peter Bird, June 2002",
         "PlateA": "FT",
         "PlateB": "AU",
@@ -8571,7 +8571,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "FT-PA",
+        "name": "FT-PA",
         "Source": "Peter Bird, June 2002",
         "PlateA": "FT",
         "PlateB": "PA",
@@ -8598,7 +8598,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EA-PA",
+        "name": "EA-PA",
         "Source": "Naar and Hey, 1991",
         "PlateA": "EA",
         "PlateB": "PA",
@@ -8642,7 +8642,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "EA-NZ",
+        "name": "EA-NZ",
         "Source": "Naar and Hey, 1991",
         "PlateA": "EA",
         "PlateB": "NZ",
@@ -8695,7 +8695,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "JZ-PA",
+        "name": "JZ-PA",
         "Source": "Larson et al. [1992]",
         "PlateA": "JZ",
         "PlateB": "PA",
@@ -8731,7 +8731,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "JZ-AN",
+        "name": "JZ-AN",
         "Source": "Larson et al. [1992]",
         "PlateA": "JZ",
         "PlateB": "AN",
@@ -8754,7 +8754,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "JZ-NZ",
+        "name": "JZ-NZ",
         "Source": "Larson et al. [1992]",
         "PlateA": "JZ",
         "PlateB": "NZ",
@@ -8786,7 +8786,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NZ-PA",
+        "name": "NZ-PA",
         "Source": "Hey et al. [1995]",
         "PlateA": "NZ",
         "PlateB": "PA",
@@ -8826,7 +8826,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "GP-PA",
+        "name": "GP-PA",
         "Source": "Lonsdale [1988]",
         "PlateA": "GP",
         "PlateB": "PA",
@@ -8865,7 +8865,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "GP-NZ",
+        "name": "GP-NZ",
         "Source": "Lonsdale [1988]",
         "PlateA": "GP",
         "PlateB": "NZ",
@@ -8905,7 +8905,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "GP-CO",
+        "name": "GP-CO",
         "Source": "Lonsdale [1988]",
         "PlateA": "GP",
         "PlateB": "CO",
@@ -8926,7 +8926,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PA-CO",
+        "name": "PA-CO",
         "Source": "Lonsdale [1988]",
         "PlateA": "PA",
         "PlateB": "CO",
@@ -8949,7 +8949,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NZ-PA",
+        "name": "NZ-PA",
         "Source": "Lonsdale [1988]",
         "PlateA": "NZ",
         "PlateB": "PA",
@@ -8971,7 +8971,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CO-NZ",
+        "name": "CO-NZ",
         "Source": "Lonsdale [1988]",
         "PlateA": "CO",
         "PlateB": "NZ",
@@ -8998,7 +8998,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SC-SA",
+        "name": "SC-SA",
         "Source": "Peter Bird, June 2002",
         "PlateA": "SC",
         "PlateB": "SA",
@@ -9061,7 +9061,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SW-SC",
+        "name": "SW-SC",
         "Source": "Livermore et al. [1997]; Leat et al. [2000]",
         "PlateA": "SW",
         "PlateB": "SC",
@@ -9111,7 +9111,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SW-AN",
+        "name": "SW-AN",
         "Source": "Leat et al. [2000]",
         "PlateA": "SW",
         "PlateB": "AN",
@@ -9130,7 +9130,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SC-AN",
+        "name": "SC-AN",
         "Source": "Maldonado et al., 1998",
         "PlateA": "SC",
         "PlateB": "AN",
@@ -9157,7 +9157,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SC-AN",
+        "name": "SC-AN",
         "Source": "Leat et al. [2000]",
         "PlateA": "SC",
         "PlateB": "AN",
@@ -9178,7 +9178,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SW\/SA",
+        "name": "SW\/SA",
         "Source": "Peter Bird, June 2002",
         "PlateA": "SW",
         "PlateB": "SA",
@@ -9209,7 +9209,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AR-IN",
+        "name": "AR-IN",
         "Source": "by Peter Bird, October 2001",
         "PlateA": "AR",
         "PlateB": "IN",
@@ -9240,7 +9240,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "IN-AR",
+        "name": "IN-AR",
         "Source": "Fournier et al. [2001]",
         "PlateA": "IN",
         "PlateB": "AR",
@@ -9270,7 +9270,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SO-AR",
+        "name": "SO-AR",
         "Source": "Peter Bird, June 2002",
         "PlateA": "SO",
         "PlateB": "AR",
@@ -9394,7 +9394,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AF-AR",
+        "name": "AF-AR",
         "Source": "Peter Bird, June 2002",
         "PlateA": "AF",
         "PlateB": "AR",
@@ -9432,7 +9432,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AR-AF",
+        "name": "AR-AF",
         "Source": "Brian Taylor, pers. comm., 2002",
         "PlateA": "AR",
         "PlateB": "AF",
@@ -9465,7 +9465,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AS\/AF",
+        "name": "AS\/AF",
         "Source": "Peter Bird, June 2002",
         "PlateA": "AS",
         "PlateB": "AF",
@@ -9501,7 +9501,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AT\/AF",
+        "name": "AT\/AF",
         "Source": "Peter Bird, June 2002",
         "PlateA": "AT",
         "PlateB": "AF",
@@ -9532,7 +9532,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "SO-AF",
+        "name": "SO-AF",
         "Source": "by Peter Bird, September 2001",
         "PlateA": "SO",
         "PlateB": "AF",
@@ -9647,7 +9647,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AF-SO",
+        "name": "AF-SO",
         "Source": "Lemaux et al. [2002]",
         "PlateA": "AF",
         "PlateB": "SO",
@@ -9670,7 +9670,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "AF-SO",
+        "name": "AF-SO",
         "Source": "Peter Bird, June 2002",
         "PlateA": "AF",
         "PlateB": "SO",
@@ -9705,7 +9705,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PM-CA",
+        "name": "PM-CA",
         "Source": "Mann and Kolarsky [1995]",
         "PlateA": "PM",
         "PlateB": "CA",
@@ -9742,7 +9742,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PM-CA",
+        "name": "PM-CA",
         "Source": "Kellogg and Vega [1995]",
         "PlateA": "PM",
         "PlateB": "CA",
@@ -9780,7 +9780,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NZ-PM",
+        "name": "NZ-PM",
         "Source": "Westbrook et al. [1995]",
         "PlateA": "NZ",
         "PlateB": "PM",
@@ -9805,7 +9805,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NZ-PM",
+        "name": "NZ-PM",
         "Source": "Kolarsky and Mann [1995]",
         "PlateA": "NZ",
         "PlateB": "PM",
@@ -9833,7 +9833,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "NZ-PM",
+        "name": "NZ-PM",
         "Source": "Moore and Sender [1995]",
         "PlateA": "NZ",
         "PlateB": "PM",
@@ -9863,7 +9863,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CO\\PM",
+        "name": "CO\\PM",
         "Source": "Kellogg and Vega [1995]",
         "PlateA": "CO",
         "PlateB": "PM",
@@ -9896,7 +9896,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "ND\/NZ",
+        "name": "ND\/NZ",
         "Source": "Westbrook et al. [1995]",
         "PlateA": "ND",
         "PlateB": "NZ",
@@ -9929,7 +9929,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "PM-ND",
+        "name": "PM-ND",
         "Source": "Mann and Kolarsky [1995]",
         "PlateA": "PM",
         "PlateB": "ND",
@@ -9954,7 +9954,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CA\\ND",
+        "name": "CA\\ND",
         "Source": "Taboada et al. [1997]",
         "PlateA": "CA",
         "PlateB": "ND",
@@ -9995,7 +9995,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CA\\ND",
+        "name": "CA\\ND",
         "Source": "Perez et al. [1997]",
         "PlateA": "CA",
         "PlateB": "ND",
@@ -10022,7 +10022,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "ND-SA",
+        "name": "ND-SA",
         "Source": "Collot et al. [2002]",
         "PlateA": "ND",
         "PlateB": "SA",
@@ -10051,7 +10051,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "ND-SA",
+        "name": "ND-SA",
         "Source": "Audemard and Audemard [2002]",
         "PlateA": "ND",
         "PlateB": "SA",
@@ -10126,7 +10126,7 @@
       "type": "Feature",
       "properties": {
         "LAYER": "plate boundary",
-        "Name": "CA-SA",
+        "name": "CA-SA",
         "Source": "Taboada et al. [1997]",
         "PlateA": "CA",
         "PlateB": "SA",

@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "style": {
+    "smoothFactor": 2,
+    "dashArray": [10],
+    "color": "white",
+    "fillOpacity": 0,
+    "weight": 5,
+    "opacity": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "LAYER": "plate boundary",
+        "name": "Nankai-Trog",
+        "Source": "by Peter Bird, September 2001",
+        "PlateA": "AM",
+        "PlateB": "PS",
+        "Type": "subduction"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [132.824, 30.7544],
+          [132.965, 30.9698],
+          [133.197, 31.2162],
+          [133.5, 31.5152],
+          [134.042, 31.8821],
+          [134.691, 32.1997],
+          [135.026, 32.3264],
+          [135.356, 32.46],
+          [135.612, 32.5372],
+          [136.025, 32.686],
+          [136.524, 32.8681],
+          [137.03, 33.0526],
+          [137.546, 33.4046],
+          [138.066, 33.7495],
+          [138.383, 34.059],
+          [138.508, 34.5822],
+          [138.674, 35.0337]
+        ]
+      }
+    }
+  ]
+}

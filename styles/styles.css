@@ -35,6 +35,13 @@ body section {
   h2 {
     color: hsl(from var(--secondary) h 80% l);
   }
+  & figure {
+    @media (width > 800px) {
+      @media (width < 1200px) {
+        width: 75%;
+      }
+    }
+  }
 }
 
 #cause {
@@ -62,7 +69,24 @@ body section {
 
 #nankaiMap {
   min-height: 600px;
-  height: clamp(600px, 100%, 850px);
+  height: clamp(600px, 100%, 75vh);
+}
+
+.leaflet-popup {
+  width: 300px;
+  .leaflet-popup-content-wrapper {
+    width: 100%;
+  }
+  & h4 {
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+  }
+  & p {
+    margin: 0;
+    padding: 0;
+    font-size: 11pt;
+    animation: none;
+  }
 }
 
 #history {
@@ -255,7 +279,7 @@ h2 {
 
 p {
   font-family: Nunito, sans-serif;
-  font-size: clamp(12pt, 1.4rem, 2vw);
+  font-size: clamp(12pt, 1.4rem, 1vw);
   font-weight: 400;
   em {
     font-weight: 300;
@@ -277,8 +301,12 @@ a {
 }
 
 figure {
+  & img {
+    max-height: 80vh;
+  }
   & figcaption {
     text-align: left;
+    padding: 0 5px;
     padding-top: 15px;
     font-size: 0.8rem;
     line-height: 1;
@@ -286,12 +314,14 @@ figure {
 }
 
 .attribution {
-  font-size: 1rem;
-  line-height: 2;
+  text-align: left;
+  padding-top: 15px;
+  font-size: 0.8rem;
+  line-height: 1;
 }
 
 main {
-  & section {
+  & > section {
     --section-bg-color: white;
     --in-view: false;
     animation: section-in-view both;
@@ -301,11 +331,11 @@ main {
     background-image: url(../textures/cream-paper.png);
     padding: 30px 15px;
   }
-  & section:first-of-type {
+  & > section:first-of-type {
     padding-top: 60px;
   }
   @media (width > 1200px) {
-    & section {
+    & > section {
       padding: 30px 15vw;
     }
   }
@@ -530,7 +560,7 @@ footer {
     padding: 30px 15vw;
   }
   & p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   & a {
     color: var(--secondary);
@@ -559,6 +589,9 @@ footer {
   @media (width > 1200px) {
     grid-template-columns: 2fr 1fr;
     gap: 30px;
+  }
+  & figure {
+    justify-self: center;
   }
 }
 

@@ -1,9 +1,17 @@
 {
   "type": "FeatureCollection",
+  "style": {
+    "smoothFactor": 2,
+    "fillColor": "color(srgb 0.0335294 0.206257 0.413529)",
+    "fillOpacity": 0.2,
+    "color": "color(srgb 0.0335294 0.206257 0.413529)",
+    "weight": 2,
+    "opacity": 0.6
+  },
   "features": [
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "AF", "PlateName": "Africa" },
+      "properties": { "LAYER": "plate", "Code": "AF", "name": "Africa" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -823,7 +831,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "AN",
-        "PlateName": "Antarctica"
+        "name": "Antarctica"
       },
       "geometry": {
         "type": "Polygon",
@@ -1581,7 +1589,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "SO", "PlateName": "Somalia" },
+      "properties": { "LAYER": "plate", "Code": "SO", "name": "Somalia" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2071,7 +2079,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "IN", "PlateName": "India" },
+      "properties": { "LAYER": "plate", "Code": "IN", "name": "India" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2365,7 +2373,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "AU",
-        "PlateName": "Australia"
+        "name": "Australia"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3338,7 +3346,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "EU", "PlateName": "Eurasia" },
+      "properties": {
+        "LAYER": "plate",
+        "Code": "EU",
+        "name": "Eurasische Platte"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4483,7 +4495,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "NA",
-        "PlateName": "North America"
+        "name": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -5563,7 +5575,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "SA",
-        "PlateName": "South America"
+        "name": "South America"
       },
       "geometry": {
         "type": "Polygon",
@@ -6181,7 +6193,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "NZ", "PlateName": "Nazca" },
+      "properties": { "LAYER": "plate", "Code": "NZ", "name": "Nazca" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -6623,7 +6635,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "PA", "PlateName": "Pacific" },
+      "properties": {
+        "LAYER": "plate",
+        "Code": "PA",
+        "name": "Pazifische Platte"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -7834,7 +7850,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "AR", "PlateName": "Arabia" },
+      "properties": { "LAYER": "plate", "Code": "AR", "name": "Arabia" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8091,7 +8107,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "SU", "PlateName": "Sunda" },
+      "properties": { "LAYER": "plate", "Code": "SU", "name": "Sunda" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8305,7 +8321,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "TI", "PlateName": "Timor" },
+      "properties": { "LAYER": "plate", "Code": "TI", "name": "Timor" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8366,7 +8382,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "KE", "PlateName": "Kermadec" },
+      "properties": { "LAYER": "plate", "Code": "KE", "name": "Kermadec" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8433,7 +8449,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "KE", "PlateName": "Kermadec" },
+      "properties": { "LAYER": "plate", "Code": "KE", "name": "Kermadec" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8485,7 +8501,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "TO", "PlateName": "Tonga" },
+      "properties": { "LAYER": "plate", "Code": "TO", "name": "Tonga" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8600,7 +8616,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "NI",
-        "PlateName": "Niuafo'ou"
+        "name": "Niuafo'ou"
       },
       "geometry": {
         "type": "Polygon",
@@ -8693,7 +8709,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "WL", "PlateName": "Woodlark" },
+      "properties": { "LAYER": "plate", "Code": "WL", "name": "Woodlark" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8844,7 +8860,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "MO", "PlateName": "Maoke" },
+      "properties": { "LAYER": "plate", "Code": "MO", "name": "Maoke" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8886,7 +8902,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "SB",
-        "PlateName": "South Bismarck"
+        "name": "South Bismarck"
       },
       "geometry": {
         "type": "Polygon",
@@ -8997,7 +9013,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "SS",
-        "PlateName": "Solomon Sea"
+        "name": "Solomon Sea"
       },
       "geometry": {
         "type": "Polygon",
@@ -9054,7 +9070,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "NB",
-        "PlateName": "North Bismarck"
+        "name": "North Bismarck"
       },
       "geometry": {
         "type": "Polygon",
@@ -9201,7 +9217,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "NH",
-        "PlateName": "New Hebrides"
+        "name": "New Hebrides"
       },
       "geometry": {
         "type": "Polygon",
@@ -9396,7 +9412,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "CA",
-        "PlateName": "Caribbean"
+        "name": "Caribbean"
       },
       "geometry": {
         "type": "Polygon",
@@ -9587,7 +9603,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "CO", "PlateName": "Cocos" },
+      "properties": { "LAYER": "plate", "Code": "CO", "name": "Cocos" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -9756,7 +9772,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "OK", "PlateName": "Okhotsk" },
+      "properties": {
+        "LAYER": "plate",
+        "Code": "OK",
+        "name": "Ochotsk-Platte"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -9943,7 +9963,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "JF",
-        "PlateName": "Juan de Fuca"
+        "name": "Juan de Fuca"
       },
       "geometry": {
         "type": "Polygon",
@@ -10054,7 +10074,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "AP",
-        "PlateName": "Altiplano"
+        "name": "Altiplano"
       },
       "geometry": {
         "type": "Polygon",
@@ -10123,7 +10143,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "ND",
-        "PlateName": "North Andes"
+        "name": "North Andes"
       },
       "geometry": {
         "type": "Polygon",
@@ -10280,7 +10300,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "ON", "PlateName": "Okinawa" },
+      "properties": {
+        "LAYER": "plate",
+        "Code": "ON",
+        "name": "Okinawa-Platte"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -10368,7 +10392,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "PS",
-        "PlateName": "Philippine Sea"
+        "name": "Philippinische Platte"
       },
       "geometry": {
         "type": "Polygon",
@@ -10597,7 +10621,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "AM", "PlateName": "Amur" },
+      "properties": { "LAYER": "plate", "Code": "AM", "name": "Amurplatte" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -10777,7 +10801,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "CL", "PlateName": "Caroline" },
+      "properties": { "LAYER": "plate", "Code": "CL", "name": "Caroline" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -10882,7 +10906,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "MA", "PlateName": "Mariana" },
+      "properties": { "LAYER": "plate", "Code": "MA", "name": "Marianen" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -10969,7 +10993,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "FT", "PlateName": "Futuna" },
+      "properties": { "LAYER": "plate", "Code": "FT", "name": "Futuna" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11004,7 +11028,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "SC", "PlateName": "Scotia" },
+      "properties": { "LAYER": "plate", "Code": "SC", "name": "Scotia" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11146,7 +11170,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "SL", "PlateName": "Shetland" },
+      "properties": { "LAYER": "plate", "Code": "SL", "name": "Shetland" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11184,7 +11208,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "AS",
-        "PlateName": "Aegean Sea"
+        "name": "Aegean Sea"
       },
       "geometry": {
         "type": "Polygon",
@@ -11245,7 +11269,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "AT", "PlateName": "Anatolia" },
+      "properties": { "LAYER": "plate", "Code": "AT", "name": "Anatolia" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11322,7 +11346,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "YA", "PlateName": "Yangtze" },
+      "properties": { "LAYER": "plate", "Code": "YA", "name": "Jangtseplatte" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11449,7 +11473,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "BU", "PlateName": "Burma" },
+      "properties": { "LAYER": "plate", "Code": "BU", "name": "Burma" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11519,7 +11543,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "RI", "PlateName": "Rivera" },
+      "properties": { "LAYER": "plate", "Code": "RI", "name": "Rivera" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11600,7 +11624,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "BH",
-        "PlateName": "Birds Head"
+        "name": "Birds Head"
       },
       "geometry": {
         "type": "Polygon",
@@ -11671,7 +11695,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "MS",
-        "PlateName": "Molucca Sea"
+        "name": "Molucca Sea"
       },
       "geometry": {
         "type": "Polygon",
@@ -11735,7 +11759,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "BS",
-        "PlateName": "Banda Sea"
+        "name": "Banda Sea"
       },
       "geometry": {
         "type": "Polygon",
@@ -11819,7 +11843,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "MN", "PlateName": "Manus" },
+      "properties": { "LAYER": "plate", "Code": "MN", "name": "Manus" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11875,7 +11899,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "CR",
-        "PlateName": "Conway Reef"
+        "name": "Conway Reef"
       },
       "geometry": {
         "type": "Polygon",
@@ -11955,7 +11979,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "BR",
-        "PlateName": "Balmoral Reef"
+        "name": "Balmoral Reef"
       },
       "geometry": {
         "type": "Polygon",
@@ -12061,7 +12085,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "BR",
-        "PlateName": "Balmoral Reef"
+        "name": "Balmoral Reef"
       },
       "geometry": {
         "type": "Polygon",
@@ -12077,7 +12101,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "EA", "PlateName": "Easter" },
+      "properties": { "LAYER": "plate", "Code": "EA", "name": "Easter" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -12155,7 +12179,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "JZ",
-        "PlateName": "Juan Fernandez"
+        "name": "Juan Fernandez"
       },
       "geometry": {
         "type": "Polygon",
@@ -12211,7 +12235,7 @@
       "properties": {
         "LAYER": "plate",
         "Code": "GP",
-        "PlateName": "Galapagos"
+        "name": "Galapagos"
       },
       "geometry": {
         "type": "Polygon",
@@ -12273,7 +12297,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "SW", "PlateName": "Sandwich" },
+      "properties": { "LAYER": "plate", "Code": "SW", "name": "Sandwich" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -12334,7 +12358,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "LAYER": "plate", "Code": "PM", "PlateName": "Panama" },
+      "properties": { "LAYER": "plate", "Code": "PM", "name": "Panama" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
