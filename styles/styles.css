@@ -303,6 +303,7 @@ a {
 figure {
   & img {
     max-height: 80vh;
+    justify-self: center;
   }
   & figcaption {
     text-align: left;
@@ -436,6 +437,17 @@ main {
 
   #heroVid {
     display: none;
+  }
+}
+
+#literatur *:not(h2) {
+  font-family: Nunito, sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  & ul,
+  li {
+    padding: 0;
+    list-style: none;
   }
 }
 
